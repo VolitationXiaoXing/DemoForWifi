@@ -21,6 +21,7 @@
 		EA7BD80D1D3F637F009C4DA0 /* HMWoDeNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BD8031D3F637F009C4DA0 /* HMWoDeNavController.m */; };
 		EA7BD80E1D3F637F009C4DA0 /* wode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA7BD8041D3F637F009C4DA0 /* wode.storyboard */; };
 		EA7BD8151D3F63FC009C4DA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BD8141D3F63FC009C4DA0 /* AppDelegate.m */; };
+		EA7BD8181D3F6AF2009C4DA0 /* HMCeSuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BD8171D3F6AF2009C4DA0 /* HMCeSuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		EA7BD8041D3F637F009C4DA0 /* wode.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = wode.storyboard; sourceTree = "<group>"; };
 		EA7BD8131D3F63FC009C4DA0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA7BD8141D3F63FC009C4DA0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA7BD8161D3F6AF2009C4DA0 /* HMCeSuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMCeSuViewController.h; sourceTree = "<group>"; };
+		EA7BD8171D3F6AF2009C4DA0 /* HMCeSuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMCeSuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				EA7BD7F11D3F637F009C4DA0 /* HMCeSuNavController.h */,
 				EA7BD7F21D3F637F009C4DA0 /* HMCeSuNavController.m */,
 				EA7BD7F31D3F637F009C4DA0 /* sesu.storyboard */,
+				EA7BD8161D3F6AF2009C4DA0 /* HMCeSuViewController.h */,
+				EA7BD8171D3F6AF2009C4DA0 /* HMCeSuViewController.m */,
 			);
 			path = cesu;
 			sourceTree = "<group>";
@@ -237,6 +242,7 @@
 			files = (
 				EA7BD8051D3F637F009C4DA0 /* HMCeSuNavController.m in Sources */,
 				EA7BD7DB1D3F633C009C4DA0 /* main.m in Sources */,
+				EA7BD8181D3F6AF2009C4DA0 /* HMCeSuViewController.m in Sources */,
 				EA7BD80C1D3F637F009C4DA0 /* HMTabBarController.m in Sources */,
 				EA7BD80D1D3F637F009C4DA0 /* HMWoDeNavController.m in Sources */,
 				EA7BD8151D3F63FC009C4DA0 /* AppDelegate.m in Sources */,
@@ -385,6 +391,7 @@
 				EA7BD7EF1D3F633C009C4DA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
