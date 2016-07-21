@@ -5,35 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--测速-->
-        <scene sceneID="Qd7-NJ-0ae">
-            <objects>
-                <tableViewController id="HrZ-Qy-9jz" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Cbi-zf-ZHR">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="8DB-B5-A9V">
-                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8DB-B5-A9V" id="ZS9-Oi-5a6">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="HrZ-Qy-9jz" id="FDa-Z7-MWG"/>
-                            <outlet property="delegate" destination="HrZ-Qy-9jz" id="cGg-ZJ-Men"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="测速" id="Mjr-KT-tXs"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Skd-kW-HTT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1407" y="-34"/>
-        </scene>
         <!--Ce Su Nav Controller-->
         <scene sceneID="rlZ-gf-Eh5">
             <objects>
@@ -43,12 +14,63 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="HrZ-Qy-9jz" kind="relationship" relationship="rootViewController" id="Knx-jg-RBP"/>
+                        <segue destination="Kja-d9-YTM" kind="relationship" relationship="rootViewController" id="7Up-cw-N90"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xYs-S9-hTD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="587" y="-34"/>
+            <point key="canvasLocation" x="950" y="-423"/>
+        </scene>
+        <!--测速-->
+        <scene sceneID="W1p-Ur-euj">
+            <objects>
+                <viewController id="Kja-d9-YTM" customClass="HMCeSuViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lqy-HA-36E"/>
+                        <viewControllerLayoutGuide type="bottom" id="0Bn-f7-ZUr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dRo-zc-XMq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="测速" id="Y12-xL-5tm">
+                        <barButtonItem key="rightBarButtonItem" title="Item" style="plain" id="ViV-FN-1H5">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gy5-8B-0zC">
+                                <rect key="frame" x="334" y="7" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="延迟"/>
+                                <connections>
+                                    <segue destination="ZQt-PG-ctD" kind="show" id="QLC-4E-hvo"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lcl-IG-ROq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1647" y="-523"/>
+        </scene>
+        <!--时延测试-->
+        <scene sceneID="gqf-YD-7RI">
+            <objects>
+                <viewController id="ZQt-PG-ctD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pIY-Y2-APP"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wc3-PX-Nkh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zC1-iA-Hrn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="时延测试" id="TfK-fq-Tsi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="de9-K6-yJ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2335" y="-504"/>
         </scene>
     </scenes>
 </document>
