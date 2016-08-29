@@ -6,15 +6,15 @@
 //  Copyright © 2015年 itcast. All rights reserved.
 //
 
-#import "HMCollectionViewCell.h"
+#import "VXXCollectionViewCell.h"
 
-@interface HMCollectionViewCell ()
+@interface VXXCollectionViewCell ()
 @property (weak, nonatomic) IBOutlet UIImageView *imgViewIcon;
 
 @end
 
 
-@implementation HMCollectionViewCell
+@implementation VXXCollectionViewCell
 
 - (void)setImage:(UIImage *)image {
     _image = image;

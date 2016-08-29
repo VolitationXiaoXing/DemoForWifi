@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "HMCollectionViewCell.h"
+#import "VXXCollectionViewCell.h"
 #define HMImageCount 4
 
 @interface ViewController ()
@@ -53,7 +53,7 @@
     UIImage *img = [UIImage imageNamed:img_name];
     
     // 2. 创建Cell
-    HMCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"img_cell" forIndexPath:indexPath];
+    VXXCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"img_cell" forIndexPath:indexPath];
     
     // 3. 把图片设置给cell
     cell.image = img;

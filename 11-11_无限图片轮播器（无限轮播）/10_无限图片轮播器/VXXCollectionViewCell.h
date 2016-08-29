@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HMCollectionViewCell : UICollectionViewCell
+@interface VXXCollectionViewCell : UICollectionViewCell
 
 
 @property (nonatomic, strong) UIImage *image;
