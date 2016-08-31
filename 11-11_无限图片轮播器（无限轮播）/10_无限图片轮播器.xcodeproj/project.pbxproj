@@ -13,8 +13,6 @@
 		D81513651C09889100FC5D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81513631C09889100FC5D4D /* Main.storyboard */; };
 		D81513671C09889100FC5D4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81513661C09889100FC5D4D /* Assets.xcassets */; };
 		D815136A1C09889100FC5D4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81513681C09889100FC5D4D /* LaunchScreen.storyboard */; };
-		D81513751C09889100FC5D4D /* _0________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D81513741C09889100FC5D4D /* _0________Tests.m */; };
-		D81513801C09889100FC5D4D /* _0________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D815137F1C09889100FC5D4D /* _0________UITests.m */; };
 		D81513931C09895C00FC5D4D /* VXXCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D81513921C09895C00FC5D4D /* VXXCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
@@ -47,11 +45,7 @@
 		D81513691C09889100FC5D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D815136B1C09889100FC5D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D81513701C09889100FC5D4D /* 10_无限图片轮播器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "10_无限图片轮播器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D81513741C09889100FC5D4D /* _0________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_0________Tests.m"; sourceTree = "<group>"; };
-		D81513761C09889100FC5D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D815137B1C09889100FC5D4D /* 10_无限图片轮播器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "10_无限图片轮播器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D815137F1C09889100FC5D4D /* _0________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_0________UITests.m"; sourceTree = "<group>"; };
-		D81513811C09889100FC5D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D81513911C09895C00FC5D4D /* VXXCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXXCollectionViewCell.h; sourceTree = "<group>"; };
 		D81513921C09895C00FC5D4D /* VXXCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXXCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				D81513591C09889100FC5D4D /* 10_无限图片轮播器 */,
-				D81513731C09889100FC5D4D /* 10_无限图片轮播器Tests */,
-				D815137E1C09889100FC5D4D /* 10_无限图片轮播器UITests */,
 				D81513581C09889100FC5D4D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,24 +113,6 @@
 				D815135B1C09889100FC5D4D /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D81513731C09889100FC5D4D /* 10_无限图片轮播器Tests */ = {
-			isa = PBXGroup;
-			children = (
-				D81513741C09889100FC5D4D /* _0________Tests.m */,
-				D81513761C09889100FC5D4D /* Info.plist */,
-			);
-			path = "10_无限图片轮播器Tests";
-			sourceTree = "<group>";
-		};
-		D815137E1C09889100FC5D4D /* 10_无限图片轮播器UITests */ = {
-			isa = PBXGroup;
-			children = (
-				D815137F1C09889100FC5D4D /* _0________UITests.m */,
-				D81513811C09889100FC5D4D /* Info.plist */,
-			);
-			path = "10_无限图片轮播器UITests";
 			sourceTree = "<group>";
 		};
 		D815138D1C09890800FC5D4D /* Models */ = {
@@ -322,7 +296,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D81513751C09889100FC5D4D /* _0________Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +303,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D81513801C09889100FC5D4D /* _0________UITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
